@@ -1,0 +1,4 @@
+1 - added cnn image retrieval db
+2 - added harder negatives in the form of well spaced pano images
+3 - changes to geometric method, only use guaranteed matches
+4 - changes to geometric again, lots more matches. Added split images as well and recalculated to remove darks

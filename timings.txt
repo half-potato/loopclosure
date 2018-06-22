@@ -1,0 +1,239 @@
+Testing on the Lip6Outdoor dataset
+Evaling 122890 examples in 82 batches of size 1500 to 1390
+2017-09-13 17:28:20.175919: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: GeForce GTX TITAN X
+major: 5 minor: 2 memoryClockRate (GHz) 1.076
+pciBusID 0000:01:00.0
+Total memory: 11.92GiB
+Free memory: 11.56GiB
+2017-09-13 17:28:20.175969: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-09-13 17:28:20.175979: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-09-13 17:28:20.175993: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:01:00.0)
+sessions/frozen_contrast/ckpts_cnn
+sessions/frozen_contrast/ckpts_cnn/checkpoint-7
+Loading frozen contrast
+INFO:tensorflow:Restoring parameters from sessions/frozen_contrast/ckpts_cnn/checkpoint-7
+Took 0.001042 to run the top and 0.000001 to run the bottom
+Took 0.001039 to run the top and 0.000001 to run the bottom
+Took 0.001042 to run the top and 0.000001 to run the bottom
+Took 0.001032 to run the top and 0.000001 to run the bottom
+Network: frozen_contrast, Session: cnn, Cut: 
+
+Average run time for the top: 0.001039
+ Average run time for the bottom: 0.000001
+
+Testing on the Lip6Outdoor dataset
+Evaling 122890 examples in 82 batches of size 1500 to 1390
+2017-09-13 17:29:05.141524: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: GeForce GTX TITAN X
+major: 5 minor: 2 memoryClockRate (GHz) 1.076
+pciBusID 0000:01:00.0
+Total memory: 11.92GiB
+Free memory: 11.56GiB
+2017-09-13 17:29:05.141567: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-09-13 17:29:05.141575: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-09-13 17:29:05.141585: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:01:00.0)
+sessions/frozen_contrast/ckpts_cnn_nopitts
+sessions/frozen_contrast/ckpts_cnn_nopitts/checkpoint-1
+Loading frozen contrast
+INFO:tensorflow:Restoring parameters from sessions/frozen_contrast/ckpts_cnn_nopitts/checkpoint-1
+Took 0.001033 to run the top and 0.000001 to run the bottom
+Took 0.001053 to run the top and 0.000001 to run the bottom
+Took 0.001035 to run the top and 0.000001 to run the bottom
+Took 0.001038 to run the top and 0.000001 to run the bottom
+Network: frozen_contrast, Session: cnn_nopitts, Cut: 
+
+Average run time for the top: 0.001040
+ Average run time for the bottom: 0.000001
+
+Testing on the Lip6Outdoor dataset
+Evaling 122890 examples in 82 batches of size 1500 to 1390
+2017-09-13 17:29:49.663614: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: GeForce GTX TITAN X
+major: 5 minor: 2 memoryClockRate (GHz) 1.076
+pciBusID 0000:01:00.0
+Total memory: 11.92GiB
+Free memory: 11.56GiB
+2017-09-13 17:29:49.663665: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-09-13 17:29:49.663673: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-09-13 17:29:49.663683: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:01:00.0)
+sessions/contrast/ckpts_cnn
+sessions/contrast/ckpts_cnn/checkpoint-6
+Loading contrast
+INFO:tensorflow:Restoring parameters from sessions/contrast/ckpts_cnn/checkpoint-6
+Took 0.001101 to run the top and 0.000007 to run the bottom
+Took 0.001106 to run the top and 0.000007 to run the bottom
+Took 0.001092 to run the top and 0.000007 to run the bottom
+Took 0.001112 to run the top and 0.000007 to run the bottom
+Network: contrast, Session: cnn, Cut: 
+
+Average run time for the top: 0.001103
+ Average run time for the bottom: 0.000007
+
+Testing on the Lip6Outdoor dataset
+Evaling 122890 examples in 82 batches of size 1500 to 1390
+2017-09-13 17:30:35.536211: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: GeForce GTX TITAN X
+major: 5 minor: 2 memoryClockRate (GHz) 1.076
+pciBusID 0000:01:00.0
+Total memory: 11.92GiB
+Free memory: 11.56GiB
+2017-09-13 17:30:35.536252: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-09-13 17:30:35.536260: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-09-13 17:30:35.536271: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:01:00.0)
+sessions/contrast/ckpts_cnn_nopitts
+sessions/contrast/ckpts_cnn_nopitts/checkpoint-7
+Loading contrast
+INFO:tensorflow:Restoring parameters from sessions/contrast/ckpts_cnn_nopitts/checkpoint-7
+Took 0.001122 to run the top and 0.000007 to run the bottom
+Took 0.001126 to run the top and 0.000007 to run the bottom
+Took 0.001106 to run the top and 0.000007 to run the bottom
+Took 0.001115 to run the top and 0.000007 to run the bottom
+Network: contrast, Session: cnn_nopitts, Cut: 
+
+Average run time for the top: 0.001118
+ Average run time for the bottom: 0.000007
+
+Testing on the Lip6Outdoor dataset
+Evaling 122890 examples in 82 batches of size 1500 to 1390
+2017-09-13 17:31:21.049858: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: GeForce GTX TITAN X
+major: 5 minor: 2 memoryClockRate (GHz) 1.076
+pciBusID 0000:01:00.0
+Total memory: 11.92GiB
+Free memory: 11.56GiB
+2017-09-13 17:31:21.049897: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-09-13 17:31:21.049905: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-09-13 17:31:21.049915: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:01:00.0)
+sessions/deep/ckpts_cnn
+sessions/deep/ckpts_cnn/checkpoint-23
+Loading deep
+INFO:tensorflow:Restoring parameters from sessions/deep/ckpts_cnn/checkpoint-23
+Took 0.001102 to run the top and 0.000007 to run the bottom
+Took 0.001110 to run the top and 0.000007 to run the bottom
+Took 0.001100 to run the top and 0.000007 to run the bottom
+Took 0.001111 to run the top and 0.000007 to run the bottom
+Network: deep, Session: cnn, Cut: 
+
+Average run time for the top: 0.001106
+ Average run time for the bottom: 0.000007
+
+Testing on the Lip6Outdoor dataset
+Evaling 122890 examples in 82 batches of size 1500 to 1390
+2017-09-13 17:32:06.672597: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: GeForce GTX TITAN X
+major: 5 minor: 2 memoryClockRate (GHz) 1.076
+pciBusID 0000:01:00.0
+Total memory: 11.92GiB
+Free memory: 11.56GiB
+2017-09-13 17:32:06.672638: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-09-13 17:32:06.672646: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-09-13 17:32:06.672656: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:01:00.0)
+sessions/deep/ckpts_cnn_nopitts
+sessions/deep/ckpts_cnn_nopitts/checkpoint-6
+Loading deep
+INFO:tensorflow:Restoring parameters from sessions/deep/ckpts_cnn_nopitts/checkpoint-6
+Took 0.001121 to run the top and 0.000007 to run the bottom
+Took 0.001106 to run the top and 0.000007 to run the bottom
+Took 0.001100 to run the top and 0.000007 to run the bottom
+Took 0.001109 to run the top and 0.000007 to run the bottom
+Network: deep, Session: cnn_nopitts, Cut: 
+
+Average run time for the top: 0.001109
+ Average run time for the bottom: 0.000007
+
+Testing on the Lip6Outdoor dataset
+Evaling 122890 examples in 82 batches of size 1500 to 1390
+2017-09-13 17:32:52.247745: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: GeForce GTX TITAN X
+major: 5 minor: 2 memoryClockRate (GHz) 1.076
+pciBusID 0000:01:00.0
+Total memory: 11.92GiB
+Free memory: 11.56GiB
+2017-09-13 17:32:52.247790: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-09-13 17:32:52.247800: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-09-13 17:32:52.247814: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:01:00.0)
+sessions/frozen/ckpts_cut11_v3_cnn
+sessions/frozen/ckpts_cut11_v3_cnn/checkpoint-6
+Loading frozen
+INFO:tensorflow:Restoring parameters from sessions/frozen/ckpts_cut11_v3_cnn/checkpoint-6
+Took 0.001124 to run the top and 0.000003 to run the bottom
+Took 0.001102 to run the top and 0.000003 to run the bottom
+Took 0.001115 to run the top and 0.000003 to run the bottom
+Took 0.001124 to run the top and 0.000003 to run the bottom
+Network: frozenv2, Session: cnn, Cut: cut11_v3
+
+Average run time for the top: 0.001116
+ Average run time for the bottom: 0.000003
+
+Testing on the Lip6Outdoor dataset
+Evaling 122890 examples in 82 batches of size 1500 to 1390
+2017-09-13 17:33:36.893672: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: GeForce GTX TITAN X
+major: 5 minor: 2 memoryClockRate (GHz) 1.076
+pciBusID 0000:01:00.0
+Total memory: 11.92GiB
+Free memory: 11.56GiB
+2017-09-13 17:33:36.893714: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-09-13 17:33:36.893721: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-09-13 17:33:36.893732: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:01:00.0)
+sessions/frozen/ckpts_cut11_v3_cnn_nopitts
+sessions/frozen/ckpts_cut11_v3_cnn_nopitts/checkpoint-6
+Loading frozen
+INFO:tensorflow:Restoring parameters from sessions/frozen/ckpts_cut11_v3_cnn_nopitts/checkpoint-6
+Took 0.001109 to run the top and 0.000003 to run the bottom
+Took 0.001120 to run the top and 0.000003 to run the bottom
+Took 0.001122 to run the top and 0.000004 to run the bottom
+Took 0.001113 to run the top and 0.000003 to run the bottom
+Network: frozenv2, Session: cnn_nopitts, Cut: cut11_v3
+
+Average run time for the top: 0.001116
+ Average run time for the bottom: 0.000003
+
+Testing on the Lip6Outdoor dataset
+Evaling 122890 examples in 82 batches of size 1500 to 1390
+2017-09-13 17:34:21.908275: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: GeForce GTX TITAN X
+major: 5 minor: 2 memoryClockRate (GHz) 1.076
+pciBusID 0000:01:00.0
+Total memory: 11.92GiB
+Free memory: 11.56GiB
+2017-09-13 17:34:21.908316: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-09-13 17:34:21.908324: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-09-13 17:34:21.908334: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:01:00.0)
+sessions/frozen/ckpts_cut11_v1_cnn_nopitts
+sessions/frozen/ckpts_cut11_v1_cnn_nopitts/checkpoint-6
+Loading frozen
+INFO:tensorflow:Restoring parameters from sessions/frozen/ckpts_cut11_v1_cnn_nopitts/checkpoint-6
+Took 0.001081 to run the top and 0.000001 to run the bottom
+Took 0.001091 to run the top and 0.000001 to run the bottom
+Took 0.001098 to run the top and 0.000001 to run the bottom
+Took 0.001087 to run the top and 0.000001 to run the bottom
+Network: frozen, Session: cnn_nopitts, Cut: cut11_v1
+
+Average run time for the top: 0.001089
+ Average run time for the bottom: 0.000001
+
+Testing on the Lip6Outdoor dataset
+Evaling 122890 examples in 82 batches of size 1500 to 1390
+2017-09-13 17:35:08.255945: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: GeForce GTX TITAN X
+major: 5 minor: 2 memoryClockRate (GHz) 1.076
+pciBusID 0000:01:00.0
+Total memory: 11.92GiB
+Free memory: 11.56GiB
+2017-09-13 17:35:08.255985: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2017-09-13 17:35:08.255993: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2017-09-13 17:35:08.256003: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:01:00.0)
+sessions/frozen/ckpts_cut11_v1_cnn
+sessions/frozen/ckpts_cut11_v1_cnn/checkpoint-6
+Loading frozen
+INFO:tensorflow:Restoring parameters from sessions/frozen/ckpts_cut11_v1_cnn/checkpoint-6
+Took 0.001093 to run the top and 0.000001 to run the bottom
+Took 0.001102 to run the top and 0.000001 to run the bottom
+Took 0.001099 to run the top and 0.000001 to run the bottom
+Took 0.001098 to run the top and 0.000001 to run the bottom
+Network: frozen, Session: cnn, Cut: cut11_v1
+
+Average run time for the top: 0.001098
+Average run time for the bottom: 0.000001
